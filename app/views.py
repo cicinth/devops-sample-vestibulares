@@ -42,8 +42,8 @@ def about(request):
         'app/about.html',
         context_instance = RequestContext(request,
         {
-            'title':'About',
-            'message':'Gerenciador de vestibulares',
+            'title':'HandCode',
+            'message':'Faculdade de Tecnologia ',
             'year':datetime.now().year,
         })
     )
